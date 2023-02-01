@@ -13,6 +13,8 @@ def test_binary_search():
 	assert binary_search([1,2,3,4,5], 1) == 0
 	assert binary_search([1,2,3,4,5], 6) == -1
 	### TODO: add two more tests here.
+  assert binary_search([1,2,3,4,5,6,7],2) == 1
+  assert binary_search([4,5,6,7,8,9,10,11,12],5) ==1
 
 	###
 
